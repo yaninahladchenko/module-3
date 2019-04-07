@@ -1,3 +1,5 @@
+package task1;
+
 public class PlayingCard {
     private Rank rank;
     private Suit suit;
@@ -23,7 +25,7 @@ public class PlayingCard {
         JACK,
         QUEEN,
         KING,
-        ACE,
+        ACE
     }
 
     public enum Suit {
